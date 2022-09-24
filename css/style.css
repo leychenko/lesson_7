@@ -1,0 +1,276 @@
+/* &display=swap */
+/* ======================Шрифт для макета====================== */
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display=swap);
+/* ================================================================ */
+@import url(https://fonts.googleapis.com/css?family=Nabla:regular);
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+ }
+ [class *=__container]{
+	max-width: 810px;
+	margin: 0 auto;
+ }
+
+
+body{
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.6;
+	color: #424551
+}
+.picture{
+	max-width: 100%;
+}
+
+.article{
+	margin-bottom: 26px;
+}
+.article__title { 
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+}
+.article-text{
+	display:flex;
+	color:#787A80;
+	padding-bottom: 40px;
+}
+.article-text__date {
+	max-width: 132px;
+	padding-left: 24px;
+	background: url(../image/Calendar.svg)0 5px / 16px no-repeat;
+ }
+.article-text__time {
+	margin-left: 24px;
+	padding-left: 24px;
+	background: url(../image/Union.svg)0 5px / 16px no-repeat;
+ }
+/* ============================main======================= */
+.picture{
+	max-width: 100%;
+	min-height:360px ;
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+
+.vulputate-vitae{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	padding-bottom: 24px;
+}
+.vulputate-facilisi__text_margin{
+	margin-bottom:36px;
+}
+.vulputate-facilisi{
+	margin-bottom: 48px;
+}
+
+.lorem {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	padding-left:58px;
+	margin-bottom: 28px;
+	background: url(../image/braces.svg)0 0 / 28px 20px no-repeat;
+ }
+ .fermentum{
+	 margin-bottom: 24px;
+ }
+ .mauris-amet{
+	 margin-bottom: 44px;
+ }
+.list-fermentum__item{
+	padding-left: 32px;
+	background:url(../image/check.svg)0 5px / 16px 16px no-repeat ;
+ }
+ .list-fermentum__item:not(:last-child){
+	 margin-bottom: 4px;
+ }
+ .enim-box{
+	 margin-bottom: 100px;
+ }
+
+/* =============================Домашня робота================================== */
+/* =====================розміри боблакам додані для прикладу========== */
+.body2{
+	font-size: 25px;
+	line-height: 1.5;
+	background: url(../image/fon.jpg);
+}
+
+[class*=__container2]{
+	max-width: 1198px;
+	background: linear-gradient(90deg, rgba(16,78,209,1) 14%, rgba(113,252,190,1) 100%);
+	margin: 0 auto;
+}
+.headline__title{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.title{
+	font-family: Nabla;
+	font-weight: 900;
+	font-size: 46px;
+	padding: 10px;
+	color: rgb(6, 37, 8);
+	line-height: 1.4;
+}
+
+
+.block-color {
+	padding: 20px;
+	font-size: 25px;
+	line-height: 1.4;
+}
+.rgb {
+	background-color: rgb(0, 255, 98);
+ }
+.rgba {
+	background: rgba(165, 223, 5, 0.663);
+	color: rgb(121, 59, 121);
+	text-decoration: underline;
+	box-shadow: inset 0 0 12px 5px black;
+ }
+ /* ===================== */
+.background-image__block{
+	background: #000;
+}
+
+ .list__item{
+	 display: inline-block;
+	 width: 350px;
+	 height: 250px;
+	 margin: 15px;
+	 border-radius: 5px;
+	 background: rgb(147, 53, 170) url(../image/minion\ .png);
+ }
+ .list__item_no-repeat{
+	background: rgb(147, 53, 170) url(../image/minion\ .png)no-repeat;
+ }
+.list__item_repeat-x {
+	background: rgb(147, 53, 170) url(../image/minion\ .png) repeat-x;
+ }
+.list__item_repeat-y { 
+	background: rgb(147, 53, 170) url(../image/minion\ .png) repeat-y;
+}
+.list__item_space {
+	background: rgb(147, 53, 170) url(../image/minion\ .png) space;
+ }
+.list__item_round {
+	background: rgb(147, 53, 170) url(../image/minion\ .png)round;
+ }
+ /* ========================================== */
+ .background-position__block{
+	 background: rgb(185, 12, 12);
+ }
+
+.list__item_defoult {
+	border: 2px solid black;
+	background: rgb(147, 53, 170) url(../image/minion\ .png) 0 0 no-repeat;
+ }
+.list__item_center {
+	border: 2px solid black;
+	background: rgb(147, 53, 170) url(../image/minion\ .png) center no-repeat;
+ }
+.list__item_left {
+	border: 2px solid black;
+	background: rgb(147, 53, 170) url(../image/minion\ .png) 0 50% no-repeat;
+ }
+.list__item_in-the-corner { 
+	border: 2px solid black;
+	background: rgb(147, 53, 170) url(../image/minion\ .png) 100% 100% no-repeat;
+}
+.list__item_position { 
+	border: 2px solid black;
+	background: rgb(147, 53, 170) url(../image/minion\ .png) 38px 46px no-repeat;
+}
+/* ================================================ */
+
+.background-attachment__block{
+	background: rgb(228, 224, 7);
+}
+
+.list-item{
+	margin: 15px;
+}
+.item-fixed{
+	min-height: 950px;
+	background: url(../image/minion\ .png)center no-repeat, url(../image/dark-4487690_960_720.jpg) fixed;
+}
+.item-local{
+	height: 500px;
+	padding:25px ;
+	color: white;
+	background:rgb(177, 68, 68) url(../image/cool.jpg)0 0 no-repeat local;
+	overflow: auto;
+}
+/* ========================================== */
+
+.background-size-block{
+	background: rgb(168, 197, 3);
+}
+.list__items{
+	min-height: 550px;
+	margin: 15px;
+	border-radius: 5px;
+}
+.list__items_default { 
+	background: url(../image/car.jpg)0 0/auto auto no-repeat;
+}
+.list__items_with { 
+	background: url(../image/car.jpg)0 0/100% auto no-repeat;
+}
+.list__items_height {
+	background: url(../image/car.jpg)0 0/auto 100% no-repeat;
+ }
+.list__items_stretch {
+	background: url(../image/car.jpg)0 0/100% 100% no-repeat;
+ }
+.list__items_contain { 
+	background: url(../image/car.jpg)0 0/contain no-repeat;
+}
+.list__items_cover { 
+	background: url(../image/car.jpg)0 0/cover no-repeat;
+}
+.list__items_dimensions {
+	background: url(../image/car.jpg)0 0/650px 530px no-repeat;
+ }
+ /* ============================================== */
+
+
+.list__items_picture-color {
+	background: rgb(133, 133, 73) url(../image/car2.jpg)no-repeat;
+ }
+.list__items_two-picture {
+	background:url(../image/fullsize.png)no-repeat,url(../image/car.jpg)0 0/100% auto no-repeat;
+ }
+.list__items_three-picture {
+	background:url(../image/lego1.jpg) 107px 302px no-repeat, url(../image/fullsize.png)no-repeat,url(../image/car.jpg)0 0/100% auto no-repeat;
+ }
+.list__items_four-picture {
+	background:url(../image/car2.jpg)100% 100% no-repeat,url(../image/lego1.jpg) 107px 302px no-repeat, url(../image/fullsize.png)no-repeat,url(../image/car.jpg)0 0/100% auto no-repeat;
+ }
+ .button{
+	 display: block;
+	 max-width: 206px;
+	 min-height: 52px;
+	 padding: 20px;
+	 text-align: center;
+	 font-size: 25px;
+	 font-weight: 700;
+	 background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	 border-radius: 4px;
+	 margin: 0 auto 50px;
+	 box-shadow:0 0 7px 4px #424551;
+ }
+ .button:hover{
+	box-shadow:0 0 5px 2px #424551;
+ }
