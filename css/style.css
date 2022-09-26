@@ -97,7 +97,22 @@ body{
  .enim-box{
 	 margin-bottom: 100px;
  }
-
+ .button{
+	display: block;
+	max-width: 206px;
+	min-height: 52px;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	margin: 0 auto 50px;
+	box-shadow:0 0 7px 4px #424551;
+}
+.button:hover{
+  box-shadow:0 0 5px 2px #424551;
+}
 /* =============================Домашня робота================================== */
 /* =====================розміри боблакам додані для прикладу========== */
 .body2{
@@ -258,19 +273,4 @@ body{
 .list__items_four-picture {
 	background:url(../image/car2.jpg)100% 100% no-repeat,url(../image/lego1.jpg) 107px 302px no-repeat, url(../image/fullsize.png)no-repeat,url(../image/car.jpg)0 0/100% auto no-repeat;
  }
- .button{
-	 display: block;
-	 max-width: 206px;
-	 min-height: 52px;
-	 padding: 20px;
-	 text-align: center;
-	 font-size: 25px;
-	 font-weight: 700;
-	 background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-	 border-radius: 4px;
-	 margin: 0 auto 50px;
-	 box-shadow:0 0 7px 4px #424551;
- }
- .button:hover{
-	box-shadow:0 0 5px 2px #424551;
- }
+ 
